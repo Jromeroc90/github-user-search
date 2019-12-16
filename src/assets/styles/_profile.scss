@@ -1,0 +1,51 @@
+.profile-page {
+  margin: 40px 0;
+
+  .btn-back {
+    margin-bottom: 30px;
+  }
+
+  .git-info,
+  .personal-info {
+    &_image {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    &_row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .git-info {
+    &_row {
+      font-size: 16px;
+    }
+
+    &_repos {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+
+  .message-container {
+    text-align: center;
+  }
+
+  .error-message {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+}

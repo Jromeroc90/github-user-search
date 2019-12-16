@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  align-items: center;
+
+  &_image {
+    padding: 20px;
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+}

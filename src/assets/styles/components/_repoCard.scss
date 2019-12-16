@@ -1,0 +1,31 @@
+.repo-card {
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    width: 49%;
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &_details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+}
